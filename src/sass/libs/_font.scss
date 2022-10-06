@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'DMSans';
+  font-display: swap;
+  src: local("DMSans-400"), url('../fonts/DMSans-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  font-display: swap;
+  src: local("DMSans-700"), url('../fonts/DMSans-Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-display: swap;
+  src: local("Lato-400"), url('../fonts/Lato-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-display: swap;
+  src: local("Lato-700"), url('../fonts/Lato-Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-display: swap;
+  src: local("Mulish-400"), url('../fonts/Mulish-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

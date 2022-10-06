@@ -1,0 +1,11 @@
+.companies {
+    padding-top: 100px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(130px, auto));
+        grid-template-rows: minmax(50px, auto);
+        grid-auto-rows: minmax(50px, auto);
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+}

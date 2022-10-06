@@ -1,0 +1,20 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'DMSans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+@import 'blocks/buttons';
+@import 'blocks/promo';
+@import 'blocks/companies';
