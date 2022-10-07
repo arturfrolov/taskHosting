@@ -56,20 +56,20 @@
                         <li class="promo__item"><a href="#" class="promo__link">Blog</a></li>
                     </ul>
                 </nav>
-                <a class="button" href="#plan">Get Started</a>
+                <a class="button promo__button" href="#plan">Get Started</a>
             </header>
             <div class="promo__wrapper">
                 <h1 class="promo__title">Grow your subscription business</h1>
                 <div class="promo__subtitle">Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.</div>
                 <div class="promo__buttons">
-                    <a class="button button_purple" href="#plan">Get Started</a>
+                    <a class="button button_purple promo__button" href="#plan">Get Started</a>
                     <a class="promo__arrow" href="#plan"></a>
                 </div>
                 <img src="img/promo.png" alt="promo_img" class="promo__img">
             </div>
         </div>
     </section>
-    <section class="companies">
+    <!-- <section class="companies">
         <div class="container">
             <div class="companies__wrapper">
                 <a href="#" class="companies__link"><img src="icons/company/1.svg" alt="first"></a>
@@ -79,8 +79,8 @@
                 <a href="#" class="companies__link"><img src="icons/company/5.svg" alt="fifth"></a>
             </div>
         </div>
-    </section>
-    <section class="subscription">
+    </section> -->
+    <!-- <section class="subscription">
         <div class="container">
             <div class="subscription__wrapper">
                 <img src="img/subscription.png" alt="subscription_img" class="subscription__img">
@@ -95,8 +95,8 @@
                 </form>
             </div>
         </div>
-    </section>
-    <section class="benefits">
+    </section> -->
+    <!-- <section class="benefits">
         <div class="container">
             <div class="benefits__wrapper">
                 <div class="benefits__item">
@@ -116,8 +116,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="plan" id="plan">
+    </section> -->
+    <!-- <section class="plan" id="plan">
         <div class="container">
             <div class="plan__wrapper">
                 <h2 class="plan__title">Get the right plan for future product.</h2>
@@ -191,8 +191,21 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
+    <div class="overlay">
+        <div class="modal" id="order">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Your order:</div>
+            <div class="modal__descr">Starter</div>
+            <form class="feed-form" action="#">
+                <input required name="name" placeholder="Your name" type="text">
+                <input required name="phone" placeholder="Your phone">
+                <input required name="email" placeholder="Your E-mail" type="email">
+                <button class="button button_submit">book a consultation</button>
+            </form>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>

@@ -53,7 +53,7 @@
         grid-template-columns: 460px 610px;
         grid-template-rows: 320px 90px 155px;
         grid-auto-rows: minmax(60px, auto);
-        gap: 30px 11px;
+        gap: 30px 10px;
         img {
             object-fit: cover;
         }
@@ -119,6 +119,11 @@
         &:hover {
             // background-color: var(--second-color);
             background-color: var(--main-color);
+        }
+    }
+    &__button {
+        &:hover {
+            color: #FFFFFF;
         }
     }
 }
