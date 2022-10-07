@@ -1,0 +1,32 @@
+.benefits {
+    padding-top: 159px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(307px, auto));
+        grid-template-rows: minmax(208px, auto);
+        grid-auto-rows: minmax(208px, auto);
+        justify-content: space-between;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 307px;
+        grid-template-rows: 97px 36px minmax(48px, auto);
+        justify-items: center;
+        row-gap: 7px;
+    }
+    &__subheader {
+        color: #19191B;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 13px;
+        color: #696871;
+        font-family: 'Mulish';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+}
