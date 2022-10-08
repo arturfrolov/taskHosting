@@ -15,12 +15,30 @@ $(document).ready(function(){
       $('.overlay, #order').fadeIn('slow');
     });
   });
-});
 
-$(window).ready(function(){
   $("a[href='#']").click(function() {
     const _href = $(this).attr("href");
     $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
     return false;
+  });
+});
+
+
+const hamburger = document.querySelector('.hamburger'),
+        menu = document.querySelector('.promo__menu'),
+        closeElem = document.querySelector('.promo__close'),
+        menuList = document.querySelectorAll('.promo__link');
+
+hamburger.addEventListener('click', () => {
+    menu.classList.add('active');
+});
+
+closeElem.addEventListener('click', () => {
+    menu.classList.remove('active');
+});
+
+menuList.forEach(item => {
+  item.addEventListener('click', () => {
+    menu.classList.remove('active');
   });
 });
