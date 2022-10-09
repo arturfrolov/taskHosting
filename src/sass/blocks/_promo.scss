@@ -134,7 +134,17 @@
     }
     &__button {
         &:hover {
+            box-shadow: 3px 3px 10px var(--main-color);
             color: #FFFFFF;
+        }
+        &_purple {
+            // padding: 19px 60px;
+            // width: 211px;
+            // height: 60px;
+            background-color: var(--second-color);
+            &:hover {
+                box-shadow: 3px 3px 10px var(--second-color);
+            }
         }
     }
 }

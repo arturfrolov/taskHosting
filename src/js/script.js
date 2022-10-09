@@ -9,7 +9,7 @@ $(document).ready(function(){
     $('.overlay, #order').fadeOut('fast');
   });
 
-  $('.button__plan').each(function(i) {
+  $('.plan__button').each(function(i) {
     $(this).on('click', function() {
       $('#order .modal__descr').text($('.plan__name').eq(i).text());
       $('.overlay, #order').fadeIn('slow');

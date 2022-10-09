@@ -12,36 +12,10 @@
     justify-content: center;
     align-items: center;
     transition: all 0.4s;
-    &:hover {
-        box-shadow: 3px 3px 10px var(--main-color);
-    }
-    &_purple {
-        // padding: 19px 60px;
-        // width: 211px;
-        // height: 60px;
-        background-color: var(--second-color);
-        &:hover {
-            box-shadow: 3px 3px 10px var(--second-color);
-        }
-    }
     &__subscription {
         width: 211px;
         height: 60px;
         margin: 8px auto 0;
-    }
-    &__plan {
-        width: 100%;
-        height: 60px;
-        margin-top: 36px;
-        background-color: #fff;
-        border: 1px solid #EAE9F2;
-        color: var(--second-color);
-        font-weight: 700;
-        &_white {
-            background-color: #9F3919;
-            color: #FFFFFF;
-            border: none;
-        }
     }
     &_submit {
         width: 100%;
